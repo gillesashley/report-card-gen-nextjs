@@ -4,7 +4,7 @@ import SchoolLogo from '../../../public/assets/images/mgec-logo.jpeg';
 export default function PageOne() {
   return (
     <>
-      <div className="text-center border border-black p-4">
+      <div className="text-center border border-black p-4 mb-10 break-after-page">
         {' '}
         {/*Page 1*/}
         <h1 className="text-4xl font-bold">

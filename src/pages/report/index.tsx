@@ -8,11 +8,8 @@ export default function Report() {
     <>
       <div>
         <PageOne />
-        <br />
         <PageTwo />
-        <br />
         <PageThree />
-        <br />
         <PageFour />
       </div>
     </>

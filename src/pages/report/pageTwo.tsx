@@ -1,7 +1,7 @@
 export default function PageTwo() {
   return (
     <>
-      <div className="text-center border border-black p-4">
+      <div className="text-center border border-black p-4 mb-10 break-after-page">
         <h1 className="text-4xl font-bold">
           MOTHER&apos;S GLORY EDUCATION CENTRE
         </h1>
@@ -143,19 +143,19 @@ export default function PageTwo() {
           <div className="flex justify-between">
             <table className="table">
               <tbody>
-                <tr>
+                <tr key="age">
                   <td className="px-4 py-2">Age:</td>
                   <td className="px-4 py-2 border border-black">
                     <input type="number" placeholder="Eg. 1.5" /> YEARS
                   </td>
                 </tr>
-                <tr>
+                <tr key="height">
                   <td className="px-4 py-2">Height:</td>
                   <td className="px-4 py-2 border border-black">
                     <input type="number" placeholder="Eg. 31" /> CM
                   </td>
                 </tr>
-                <tr>
+                <tr key="weight">
                   <td className="px-4 py-2">Weight:</td>
                   <td className="px-4 py-2 border border-black">
                     <input type="number" placeholder="Eg. 18" /> KG
@@ -178,7 +178,10 @@ export default function PageTwo() {
             <input type="checkbox" className="w-5 h-5 mr-4" checked={true} />
             Other Physical Development
           </h1>
-          <table className="table border-collapse border border-gray-300 w-full text-left">
+          <table
+            key={'otherPhysicalDevelopment'}
+            className="table border-collapse border border-gray-300 w-full text-left"
+          >
             <tbody>
               <tr>
                 <td className="px-4 py-2 border border-gray-300">&nbsp;</td>
@@ -272,7 +275,10 @@ export default function PageTwo() {
             <input type="checkbox" className="w-5 h-5 mr-4" checked={true} />
             Health
           </h1>
-          <table className="table border-collapse border border-gray-300 w-full text-left">
+          <table
+            key={'health'}
+            className="table border-collapse border border-gray-300 w-full text-left"
+          >
             <tbody>
               <tr>
                 <td className="px-4 py-2 border border-gray-300">&nbsp;</td>

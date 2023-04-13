@@ -4,7 +4,11 @@ export default function Senses() {
       <div className="border-t-2 border-solid border-black my-4">
         {/*Senses*/}
         <h1 className="font-bold my-4 uppercase flex">
-          <input type="checkbox" className="w-5 h-5 mr-4" checked={true} />
+          <input
+            type="checkbox"
+            className="w-5 h-5 mr-4"
+            defaultChecked={true}
+          />
           Senses
         </h1>
         <table className="table border-collapse border border-gray-300 w-full text-left">
@@ -31,16 +35,32 @@ export default function Senses() {
                 1. Can differentiate between different tastes
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
             </tr>
             <tr>
@@ -48,16 +68,32 @@ export default function Senses() {
                 2. Can differentiate between different smells
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
             </tr>
             <tr>
@@ -65,16 +101,32 @@ export default function Senses() {
                 3. Can differentiate between different sounds
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
             </tr>
             <tr>
@@ -82,16 +134,32 @@ export default function Senses() {
                 4. Can differentiate between different colours/shapes
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
             </tr>
             <tr>
@@ -99,16 +167,32 @@ export default function Senses() {
                 5. Can differentiate between different textures
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
             </tr>
           </tbody>

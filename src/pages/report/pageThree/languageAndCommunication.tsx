@@ -4,7 +4,11 @@ export default function LanguageAndCommunication() {
       <div className={'border-t-2 border-solid border-black my-4'}>
         {/*Language and Communication*/}
         <h1 className="font-bold my-4 uppercase flex">
-          <input type="checkbox" className="w-5 h-5 mr-4" checked={true} />
+          <input
+            type="checkbox"
+            className="w-5 h-5 mr-4"
+            defaultChecked={true}
+          />
           Language and Communication
         </h1>
         <table className="table border-collapse border border-gray-300 w-full text-left">
@@ -31,16 +35,32 @@ export default function LanguageAndCommunication() {
                 1. Can express self clearly
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
             </tr>
             <tr>
@@ -57,16 +77,32 @@ export default function LanguageAndCommunication() {
                 />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
             </tr>
             <tr>
@@ -74,16 +110,32 @@ export default function LanguageAndCommunication() {
                 3. Can read pictures
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
             </tr>
             <tr>
@@ -91,16 +143,32 @@ export default function LanguageAndCommunication() {
                 4. Can identify objects in the Home/School
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
             </tr>
             <tr>
@@ -108,16 +176,32 @@ export default function LanguageAndCommunication() {
                 5. Can scribble / make pre-writing patterns
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
             </tr>
             <tr>
@@ -125,16 +209,32 @@ export default function LanguageAndCommunication() {
                 6. Can say/act simple rhymes/stories
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
             </tr>
             <tr>
@@ -142,16 +242,32 @@ export default function LanguageAndCommunication() {
                 7. Can write letters
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
             </tr>
             <tr>
@@ -159,16 +275,32 @@ export default function LanguageAndCommunication() {
                 8. Can ask questions and describe an activity
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
             </tr>
             <tr>
@@ -176,16 +308,32 @@ export default function LanguageAndCommunication() {
                 9. Can recall part/whole story heard
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
             </tr>
           </tbody>

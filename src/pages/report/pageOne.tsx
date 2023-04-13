@@ -1,5 +1,5 @@
-import Image from 'next/image';
 import SchoolLogo from '../../../public/assets/images/mgec-logo.jpeg';
+import Image from 'next/image';
 
 export default function PageOne() {
   return (

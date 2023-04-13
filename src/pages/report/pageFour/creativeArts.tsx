@@ -4,7 +4,11 @@ export default function CreativeArts() {
       <div>
         {/*Creative art*/}
         <h1 className="font-bold my-4 uppercase flex">
-          <input type="checkbox" className="w-5 h-5 mr-4" checked={true} />
+          <input
+            type="checkbox"
+            className="w-5 h-5 mr-4"
+            defaultChecked={true}
+          />
           Creative Art
         </h1>
         <table className="table border-collapse border border-gray-300 w-full text-left">
@@ -31,16 +35,32 @@ export default function CreativeArts() {
                 1. Enjoys music and dancing
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
             </tr>
             <tr>
@@ -48,16 +68,32 @@ export default function CreativeArts() {
                 2. Can make simple pattern
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
             </tr>
             <tr>
@@ -65,16 +101,32 @@ export default function CreativeArts() {
                 3. Can make free hand drawing of objects
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
             </tr>
           </tbody>

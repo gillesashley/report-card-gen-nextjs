@@ -4,7 +4,11 @@ export default function NumberWork() {
       <div className={'border-t-2 border-solid border-black my-4'}>
         {/*Number work*/}
         <h1 className="font-bold my-4 uppercase flex">
-          <input type="checkbox" className="w-5 h-5 mr-4" checked={true} />
+          <input
+            type="checkbox"
+            className="w-5 h-5 mr-4"
+            defaultChecked={true}
+          />
           Number Work
         </h1>
         <table className="table border-collapse border border-gray-300 w-full text-left">
@@ -31,16 +35,32 @@ export default function NumberWork() {
                 1. Can say numerals
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
             </tr>
             <tr key={'canCountUpTo'}>
@@ -48,16 +68,32 @@ export default function NumberWork() {
                 2. Can count up to
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
             </tr>
             <tr key={'canWriteNumerals'}>
@@ -65,16 +101,32 @@ export default function NumberWork() {
                 3. Can write numerals 1, 2, 3
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
             </tr>
           </tbody>

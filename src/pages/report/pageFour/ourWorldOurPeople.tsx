@@ -4,7 +4,11 @@ export default function OurWorldOurPeople() {
       <div className={'border-t-2 border-solid border-black my-4'}>
         {/*Our world our people*/}
         <h1 className="font-bold my-4 uppercase flex">
-          <input type="checkbox" className="w-5 h-5 mr-4" checked={true} />
+          <input
+            type="checkbox"
+            className="w-5 h-5 mr-4"
+            defaultChecked={true}
+          />
           Our World Our People
         </h1>
         <table className="table border-collapse border border-gray-300 w-full text-left">
@@ -31,16 +35,32 @@ export default function OurWorldOurPeople() {
                 1. Can identify and name a plant
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
             </tr>
             <tr>
@@ -48,16 +68,32 @@ export default function OurWorldOurPeople() {
                 2. Can identify and name animals
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
             </tr>
             <tr>
@@ -65,16 +101,32 @@ export default function OurWorldOurPeople() {
                 3. Can identify familiar natural sounds
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
               <td className="px-4 py-2 border border-gray-300">
-                <input type="checkbox" className="w-5 h-5" />
+                <input
+                  type="checkbox"
+                  className="w-5 h-5"
+                  defaultChecked={false}
+                />
               </td>
             </tr>
           </tbody>

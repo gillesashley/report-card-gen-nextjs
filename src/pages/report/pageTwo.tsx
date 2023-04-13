@@ -175,7 +175,11 @@ export default function PageTwo() {
         <div className="border-t-2 border-solid border-black my-4">
           {/*Other Physical Development*/}
           <h1 className="font-bold my-4 uppercase flex">
-            <input type="checkbox" className="w-5 h-5 mr-4" checked={true} />
+            <input
+              type="checkbox"
+              className="w-5 h-5 mr-4"
+              defaultChecked={true}
+            />
             Other Physical Development
           </h1>
           <table
@@ -203,16 +207,32 @@ export default function PageTwo() {
                   1. Can throw, Catch and Kick a Ball
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
               </tr>
               <tr>
@@ -220,16 +240,32 @@ export default function PageTwo() {
                   2. Shows Good Physical Co-Ordination
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
               </tr>
               <tr>
@@ -237,16 +273,32 @@ export default function PageTwo() {
                   3. Active and enjoy Outdoor play
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
               </tr>
               <tr>
@@ -254,16 +306,32 @@ export default function PageTwo() {
                   4. Shows Good muscle control
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
               </tr>
             </tbody>
@@ -272,7 +340,11 @@ export default function PageTwo() {
         <div className="border-t-2 border-solid border-black my-4">
           {/*Health*/}
           <h1 className="font-bold my-4 uppercase flex">
-            <input type="checkbox" className="w-5 h-5 mr-4" checked={true} />
+            <input
+              type="checkbox"
+              className="w-5 h-5 mr-4"
+              defaultChecked={true}
+            />
             Health
           </h1>
           <table
@@ -300,16 +372,32 @@ export default function PageTwo() {
                   1. Attends Toilet at acceptable times
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
               </tr>
               <tr>
@@ -317,16 +405,32 @@ export default function PageTwo() {
                   2. Attends Toilet at acceptable place
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
               </tr>
               <tr>
@@ -334,16 +438,32 @@ export default function PageTwo() {
                   3. Can wash hands after toilet
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
               </tr>
               <tr>
@@ -351,16 +471,32 @@ export default function PageTwo() {
                   4. Wash hands before and after meals
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
               </tr>
               <tr>
@@ -368,16 +504,32 @@ export default function PageTwo() {
                   5. Can use the handkerchief correctly
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
               </tr>
               <tr>
@@ -385,16 +537,32 @@ export default function PageTwo() {
                   6. Has good control of Bladder
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
               </tr>
               <tr>
@@ -402,16 +570,32 @@ export default function PageTwo() {
                   7. Can indicate toilet needs
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
                 <td className="px-4 py-2 border border-gray-300">
-                  <input type="checkbox" className="w-5 h-5" />
+                  <input
+                    type="checkbox"
+                    className="w-5 h-5"
+                    defaultChecked={false}
+                  />
                 </td>
               </tr>
             </tbody>

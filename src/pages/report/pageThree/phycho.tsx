@@ -2,7 +2,7 @@ export default function Phycho() {
   return (
     <>
       <div>
-        {/*Phycho Physical Development*/}
+        {/*Psycho Physical Development*/}
         <h1 className="font-bold my-4 uppercase flex">
           <input
             type="checkbox"
